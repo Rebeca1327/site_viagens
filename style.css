@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -51,7 +52,7 @@ li a{
       } 
 
     .banner{
-        background-image:url("assets/Section.png");
+        background-image:url("assets/img/Section.png");
         background-repeat: no-repeat; /*A imagem não se repete*/
         background-size: cover;
         height: 702.13px; /*Altura*/
@@ -115,17 +116,11 @@ li a{
     align-items: center;
 }
 
-.titulo{
-    font-size: 29.3px;
-    width: 267.33px; /*Largura*/
-    height: 45px; /*Altura*/
-    color: #05073C;
-    font-weight: bold;
-    font-family: sans-serif;
-    padding: 70px;
-}
 
 .caixa-branca{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
     background-color: #ffffff;
     width: 850px; /*Largura*/
     height: 80px; /*Altura*/
@@ -134,13 +129,22 @@ li a{
 }
 
 .coluna1{
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 225px;
+    gap: 5px;
+
+}
+.bordas{
     background-color: #ffffff;
     width: 50px; /*Largura*/
     height: 50px; /*Altura*/
     border-radius: 12px;
     border: solid #E7E6E6 1px;
-    flex-direction: row;
-    align-items: center;
+    
+   
 }
 
 .coluna-texto{
@@ -166,7 +170,7 @@ li a{
 
 .texto-btn{
     width: 83.31px; /*Largura*/
-    height: 40px; /*Altura*/
+    height: 60px; /*Altura*/
     border-radius: 12px;
     background-color: #EB662B;
     color: #ffffff;
@@ -174,4 +178,37 @@ li a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.titulo{
+    font-size: 29.3px;
+    width: 267.33px; /*Largura*/
+    height: 45px; /*Altura*/
+    color: #05073C;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 70px;
+    margin-left: 250px;
+}
+
+.carousel{
+    display: flex;
+    margin-left: 320px;
+    margin-top: -40px;
+}
+
+.titulo-card{
+    font-size: 17.72px;
+    width: 153.14px;
+    height: 27px;
+    color: #05073C;
+    font-family: sans-serif;
+}
+
+.texto-card{
+    font-size: 14.88px;
+    width: 255.53px;
+    height: 76.25px;
+    color: #05073C;
+    font-family: sans-serif;
 }
