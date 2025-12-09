@@ -187,22 +187,26 @@ li a{
     color: #05073C;
     font-weight: bold;
     font-family: sans-serif;
-    padding: 70px;
-    margin-left: 250px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 300px;
 }
 
 .carousel{
+    margin-left: 150px;
     display: flex;
-    margin-left: 320px;
-    margin-top: -40px;
+    justify-content: center;
+    justify-content: space-evenly;
+    
 }
 
 .titulo-card{
     font-size: 17.72px;
-    width: 153.14px;
+    width: 200px;
     height: 27px;
     color: #05073C;
     font-family: sans-serif;
+    margin-bottom: 7px;
 }
 
 .texto-card{
@@ -211,4 +215,75 @@ li a{
     height: 76.25px;
     color: #05073C;
     font-family: sans-serif;
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.titulo1{
+    font-size: 29.3px;
+    width: 320px; /*Largura*/
+    height: 45px; /*Altura*/
+    color: #05073C;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    margin-left: 300px;
+}
+
+.subtitulo{
+    font-size: 14.3px;
+    width: 44.80px;
+    height: 28.13px;
+    color: #05073C;
+    font-family: sans-serif;
+    display: flex;
+    margin-top: -65px;
+    margin-bottom: 0;
+    margin-left: 1700px;
+}
+
+
+.icons{
+    width: 135px;
+    height: 135px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.carousel1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.titulo-card1{
+    font-size: 17.72px;
+    width: 200px;
+    height: 27px;
+    color: #05073C;
+    font-family: sans-serif;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.card-local{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto-local{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
